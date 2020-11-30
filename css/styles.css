@@ -28,6 +28,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .ml15 {
   font-weight: 800;
@@ -87,7 +88,7 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 376px){
+@media (max-width: 425px){
   .ml15 {
     font-size: 3.8em !important;
     letter-spacing: 10px;
@@ -99,6 +100,13 @@ h6 {
   }
   
 }
+/* @media screen and (max-width: 425px) and (min-width: 375px){
+  .ml15 {
+    font-size: 5.3em !important;
+    letter-spacing: 2px !important;
+  }
+ } */
+
  @media screen and (max-width: 768px) and (min-width: 423px){
   .ml15 {
     font-size: 5.3em !important;
